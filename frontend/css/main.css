@@ -162,3 +162,97 @@ header .container nav .button{
 .prayer-time .prayer-head .main-head h2 {
     color: #081F18;
 }
+.prayer-time .prayer-body {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prayer-time .prayer-body .next-prayer {
+    background: url(../img/prayerimg.png) no-repeat center center/cover;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+.prayer-time .prayer-body .next-prayer .overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.prayer-time .prayer-body .next-prayer .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.prayer-time .prayer-body .next-prayer .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.prayer-time .prayer-body .next-prayer .info h3 {
+    color: #0D8F75;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5.76px;
+}
+.prayer-time .prayer-body .next-prayer .info .date {
+    text-align: center;
+}
+.prayer-time .prayer-body .next-prayer .info .date h4{
+    color: #E6E6E6;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3.84px;
+}
+.prayer-time .prayer-body .next-prayer .info .date p {
+    color: #D3D3D3;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.prayer-time .prayer-body .next-prayer .left-time{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.prayer-time .prayer-body .prayers-time {
+    display: flex;
+}
+.prayer-time .prayer-body .prayers-time .prayer{
+    text-align: center;
+    margin-left: 50px;
+}
+.prayer-time .prayer-body .prayers-time .prayer img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.prayer-time .prayer-body .prayers-time .prayer h3{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #081F18;
+    margin-bottom: 10px;
+}
+.prayer-time .prayer-body .prayers-time .prayer p {
+    font-size: 14px;
+    color: #081F18;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* End next prayer */
+/* Start Discover */
